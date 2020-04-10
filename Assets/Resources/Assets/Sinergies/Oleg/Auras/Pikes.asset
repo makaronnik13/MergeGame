@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6a2547fa3204a8286449ce38724b5e, type: 3}
+  m_Name: Pikes
+  m_EditorClassIdentifier: 
+  InkomeChange:
+  - resource: {fileID: 11400000, guid: 64d92121c6c2dc743b578551fe4af803, type: 2}
+    value: 2
+  Biom: 2
+  Color: 0
+  ComparationLevel: 0
+  States: []
+  Radius: 1

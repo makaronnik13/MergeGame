@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c132aaa9648c9b14e84c4bf692f8c401, type: 3}
+  m_Name: BS_Green
+  m_EditorClassIdentifier: 
+  Perks:
+  - {fileID: 11400000, guid: 25dc680129052084aaf1fcb8a745e016, type: 2}
+  - {fileID: 11400000, guid: d0a2d3b39187d6843b6cbfc74d05b38a, type: 2}
+  - {fileID: 11400000, guid: c092ccef7e8ae894d8087da106422e26, type: 2}

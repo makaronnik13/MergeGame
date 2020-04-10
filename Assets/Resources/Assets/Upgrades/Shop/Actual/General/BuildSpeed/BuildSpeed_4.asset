@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566620d11b3702498438385add8940f, type: 3}
+  m_Name: BuildSpeed_4
+  m_EditorClassIdentifier: 
+  PerkName: 
+  PType: 0
+  Biom: 3
+  Building: {fileID: 0}
+  Color: 0
+  Value: 25
+  Resource: {fileID: 11400000, guid: c2174c0daecc4c94bb03f24537cc89cd, type: 2}
+  NeedKnolwge: 9500
+  Subperks: []
+  cost:
+  - resource: {fileID: 11400000, guid: 64d92121c6c2dc743b578551fe4af803, type: 2}
+    value: 2500000

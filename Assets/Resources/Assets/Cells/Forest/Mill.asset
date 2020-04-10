@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7be66f60e76424cbfb1063ac40ed1270, type: 3}
+  m_Name: Mill
+  m_EditorClassIdentifier: 
+  Id: 4
+  Initial: 0
+  StateName: Mill
+  Biom: 0
+  X: 850
+  Y: -390
+  radiusType: 0
+  radius: 1
+  radiusResource: {fileID: 0}
+  description: Mill
+  prefab: {fileID: 1818413198348458727, guid: b32b9e07b2e524b5e8bff7f0175d7320, type: 3}
+  Sprite: {fileID: 21300000, guid: cc5fa6d5ed2a443c983456006c91cd7b, type: 3}
+  income:
+  - resource: {fileID: 11400000, guid: 64d92121c6c2dc743b578551fe4af803, type: 2}
+    value: 5
+  combinations: []
+  conditions:
+  - {fileID: 11400000, guid: 0c84111c5e0056946a1fd4553d440c0e, type: 2}
+  buffs: []
+  Perks:
+  - {fileID: 11400000, guid: 1be1480e7e248b04a8cb29e5c1745fa5, type: 2}
+  - {fileID: 11400000, guid: f96a914c78860a34c9dbf7601f90d57a, type: 2}
+  - {fileID: 11400000, guid: 6c59fb38baec0ce4aa2dd7e8e9bc4850, type: 2}
+  - {fileID: 11400000, guid: 712a5d514d37e1c478c73cce61a90e54, type: 2}
+  - {fileID: 11400000, guid: ca4cb0399ecb4df4b93fef9ae332d2b9, type: 2}

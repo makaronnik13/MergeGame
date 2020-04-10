@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566620d11b3702498438385add8940f, type: 3}
+  m_Name: B9_Inkome_3
+  m_EditorClassIdentifier: 
+  PerkName: 
+  PType: 0
+  Biom: 0
+  Building: {fileID: 11400000, guid: 009370936605c4465bf1894ce80eba8b, type: 2}
+  Color: 0
+  Value: 15
+  Resource: {fileID: 11400000, guid: 0eb48dd99a1bf874ab8e322556fa73e6, type: 2}
+  NeedKnolwge: 2500
+  Subperks: []
+  cost:
+  - resource: {fileID: 11400000, guid: 64d92121c6c2dc743b578551fe4af803, type: 2}
+    value: 50000

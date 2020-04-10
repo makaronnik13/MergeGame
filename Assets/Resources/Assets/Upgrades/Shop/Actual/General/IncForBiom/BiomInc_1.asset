@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566620d11b3702498438385add8940f, type: 3}
+  m_Name: BiomInc_1
+  m_EditorClassIdentifier: 
+  PerkName: 
+  PType: 0
+  Biom: 3
+  Building: {fileID: 0}
+  Color: 0
+  Value: 0
+  Resource: {fileID: 11400000, guid: 64d92121c6c2dc743b578551fe4af803, type: 2}
+  NeedKnolwge: 500
+  Subperks:
+  - {fileID: 11400000, guid: 27925a4af921f9640a389be6284cfcb0, type: 2}
+  - {fileID: 11400000, guid: 01b0e441810100c42bdf7fdd66780ac7, type: 2}
+  - {fileID: 11400000, guid: 233a95899d0ecff4c85d9ec6ffc0ad80, type: 2}
+  cost:
+  - resource: {fileID: 11400000, guid: 64d92121c6c2dc743b578551fe4af803, type: 2}
+    value: 2500

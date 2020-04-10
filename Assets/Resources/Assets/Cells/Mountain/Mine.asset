@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7be66f60e76424cbfb1063ac40ed1270, type: 3}
+  m_Name: Mine
+  m_EditorClassIdentifier: 
+  Id: 9
+  Initial: 0
+  StateName: Mine
+  Biom: 2
+  X: 209
+  Y: 115
+  radiusType: 0
+  radius: 1
+  radiusResource: {fileID: 0}
+  description: rocky quarter
+  prefab: {fileID: 7609965561695668843, guid: 4d789a24a83ae470789a0a0aee25ce0d, type: 3}
+  Sprite: {fileID: 21300000, guid: d8f2691ffea9d4801b51575bcb524e35, type: 3}
+  income:
+  - resource: {fileID: 11400000, guid: 64d92121c6c2dc743b578551fe4af803, type: 2}
+    value: 5
+  combinations: []
+  conditions: []
+  buffs:
+  - {fileID: 11400000, guid: d79465a8af3931a4e944a49a9f2d62dc, type: 2}
+  Perks:
+  - {fileID: 11400000, guid: 8a44c66c52582e640804c6d8b9abc480, type: 2}
+  - {fileID: 11400000, guid: 1fa048ad47fea304d9dae1220b953b01, type: 2}
+  - {fileID: 11400000, guid: 63c5a488029850b4ba97723ca36dee82, type: 2}
+  - {fileID: 11400000, guid: 38c2b5f3cc4ef7f4dbf0fc95cbb963a1, type: 2}
+  - {fileID: 11400000, guid: a2fef22647d90a542b502961198acc60, type: 2}

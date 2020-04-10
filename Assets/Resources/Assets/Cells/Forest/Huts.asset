@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7be66f60e76424cbfb1063ac40ed1270, type: 3}
+  m_Name: Huts
+  m_EditorClassIdentifier: 
+  Id: 7
+  Initial: 0
+  StateName: Huts
+  Biom: 0
+  X: 531
+  Y: -305
+  radiusType: 0
+  radius: 1
+  radiusResource: {fileID: 0}
+  description: Huts
+  prefab: {fileID: 756285240484459073, guid: 138088571c32d4efdbc7343f5fdc6b5b, type: 3}
+  Sprite: {fileID: 21300000, guid: 8dafaa55103db144b992ceaed5419386, type: 3}
+  income:
+  - resource: {fileID: 11400000, guid: 64d92121c6c2dc743b578551fe4af803, type: 2}
+    value: 5
+  combinations: []
+  conditions: []
+  buffs:
+  - {fileID: 11400000, guid: 8020c843d10c90d44a17fd10ce029d85, type: 2}
+  Perks:
+  - {fileID: 11400000, guid: f7b1e4fdac495664799dac8163d75d2a, type: 2}
+  - {fileID: 11400000, guid: 3324ec05b8c81994baf05b567493404d, type: 2}
+  - {fileID: 11400000, guid: 9d3eff27a8eb91648a394bb748b7326d, type: 2}
+  - {fileID: 11400000, guid: eb87cc233a5dfcd4ebec76f60d9766f2, type: 2}
+  - {fileID: 11400000, guid: 30756d6dac5b4624a9b9b013d1178a6a, type: 2}

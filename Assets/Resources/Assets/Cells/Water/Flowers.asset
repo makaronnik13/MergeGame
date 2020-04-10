@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7be66f60e76424cbfb1063ac40ed1270, type: 3}
+  m_Name: Flowers
+  m_EditorClassIdentifier: 
+  Id: 8
+  Initial: 0
+  StateName: Flowers
+  Biom: 1
+  X: 906
+  Y: 10
+  radiusType: 0
+  radius: 1
+  radiusResource: {fileID: 0}
+  description: Pearl divers
+  prefab: {fileID: 7966121132370304797, guid: 1ecdcd05f719bc743a9e590446c07a49, type: 3}
+  Sprite: {fileID: 0}
+  income:
+  - resource: {fileID: 11400000, guid: 64d92121c6c2dc743b578551fe4af803, type: 2}
+    value: 5
+  combinations: []
+  conditions:
+  - {fileID: 11400000, guid: 6727fffb283ea6d45ae87e03778fed12, type: 2}
+  buffs: []
+  Perks:
+  - {fileID: 11400000, guid: e3fd5f6beffd87944aeee77b230dd1f1, type: 2}
+  - {fileID: 11400000, guid: edeee3455ca196b449eb62a2c0dbe369, type: 2}
+  - {fileID: 11400000, guid: 88ec95d7fba716947b2e89c1a3b3db7c, type: 2}
+  - {fileID: 11400000, guid: e2b64726132c29c45991acd109ffe831, type: 2}
+  - {fileID: 11400000, guid: 353ad08fe7bef864a8a7b357a8530bec, type: 2}
